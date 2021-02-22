@@ -9,7 +9,7 @@
 on:
   push:
   schedule:
-    - cron: '0 21 * * *'
+    - cron: '0 0 8-23 * *'
 ```
 **node环境及运行**
 ```yml

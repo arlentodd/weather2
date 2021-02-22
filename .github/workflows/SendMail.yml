@@ -28,6 +28,5 @@ jobs:
         
     - name: Run
       run: node index.js
-      env:
-        SMTP: ${{ secrets.SMTP }}    
+   
     
